@@ -1,0 +1,2 @@
+id_,methodAnonymousClassesQty,methodAssignmentsQty,methodCbo,methodComparisonsQty,methodLambdasQty,methodLoc,methodLoopQty,methodMathOperationsQty,methodMaxNestedBlocks,methodNumbersQty,methodParametersQty,methodParenthesizedExpsQty,methodReturnQty,methodRfc,methodStringLiteralsQty,methodSubClassesQty,methodTryCatchQty,methodUniqueWordsQty,methodVariablesQty,methodWmc
+1,0,5,1,1,0,17,1,1,3,2,1,1,0,6,0,0,0,14,3,5

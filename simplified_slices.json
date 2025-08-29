@@ -1,0 +1,27 @@
+[
+  {
+    "methodCode": "@Override\r\npublic void afterTextChanged(Editable s) {\r\n    if (mPossiblyNotMultiline) {\r\n        boolean found \u003d false;\r\n        for (int i \u003d s.length() - 1; i \u003e\u003d 0; --i) {\r\n            if (s.charAt(i) \u003d\u003d \u0027\\n\u0027) {\r\n                found \u003d true;\r\n                break;\r\n            }\r\n        }\r\n        if (!found) {\r\n            mMultiline \u003d false;\r\n            int pos \u003d mEditText.getSelectionStart();\r\n            mEditText.setInputType(mEditText.getInputType() \u0026 (~InputType.TYPE_TEXT_FLAG_MULTI_LINE));\r\n            mEditText.setSelection(pos);\r\n        }\r\n    }\r\n}",
+    "sourceCodeFragment": "boolean found \u003d false;",
+    "totalUsageOutsideSlice": 2
+  },
+  {
+    "methodCode": "@Override\r\npublic void afterTextChanged(Editable s) {\r\n    if (mPossiblyNotMultiline) {\r\n        boolean found \u003d false;\r\n        for (int i \u003d s.length() - 1; i \u003e\u003d 0; --i) {\r\n            if (s.charAt(i) \u003d\u003d \u0027\\n\u0027) {\r\n                found \u003d true;\r\n                break;\r\n            }\r\n        }\r\n        if (!found) {\r\n            mMultiline \u003d false;\r\n            int pos \u003d mEditText.getSelectionStart();\r\n            mEditText.setInputType(mEditText.getInputType() \u0026 (~InputType.TYPE_TEXT_FLAG_MULTI_LINE));\r\n            mEditText.setSelection(pos);\r\n        }\r\n    }\r\n}",
+    "sourceCodeFragment": "for (int i \u003d s.length() - 1; i \u003e\u003d 0; --i) {\r\n    if (s.charAt(i) \u003d\u003d \u0027\\n\u0027) {\r\n        found \u003d true;\r\n        break;\r\n    }\r\n}",
+    "totalUsageOutsideSlice": 2
+  },
+  {
+    "methodCode": "@Override\r\npublic void afterTextChanged(Editable s) {\r\n    if (mPossiblyNotMultiline) {\r\n        boolean found \u003d false;\r\n        for (int i \u003d s.length() - 1; i \u003e\u003d 0; --i) {\r\n            if (s.charAt(i) \u003d\u003d \u0027\\n\u0027) {\r\n                found \u003d true;\r\n                break;\r\n            }\r\n        }\r\n        if (!found) {\r\n            mMultiline \u003d false;\r\n            int pos \u003d mEditText.getSelectionStart();\r\n            mEditText.setInputType(mEditText.getInputType() \u0026 (~InputType.TYPE_TEXT_FLAG_MULTI_LINE));\r\n            mEditText.setSelection(pos);\r\n        }\r\n    }\r\n}",
+    "sourceCodeFragment": "if (s.charAt(i) \u003d\u003d \u0027\\n\u0027) {\r\n    found \u003d true;\r\n    break;\r\n}",
+    "totalUsageOutsideSlice": 3
+  },
+  {
+    "methodCode": "@Override\r\npublic void afterTextChanged(Editable s) {\r\n    if (mPossiblyNotMultiline) {\r\n        boolean found \u003d false;\r\n        for (int i \u003d s.length() - 1; i \u003e\u003d 0; --i) {\r\n            if (s.charAt(i) \u003d\u003d \u0027\\n\u0027) {\r\n                found \u003d true;\r\n                break;\r\n            }\r\n        }\r\n        if (!found) {\r\n            mMultiline \u003d false;\r\n            int pos \u003d mEditText.getSelectionStart();\r\n            mEditText.setInputType(mEditText.getInputType() \u0026 (~InputType.TYPE_TEXT_FLAG_MULTI_LINE));\r\n            mEditText.setSelection(pos);\r\n        }\r\n    }\r\n}",
+    "sourceCodeFragment": "if (!found) {\r\n    mMultiline \u003d false;\r\n    int pos \u003d mEditText.getSelectionStart();\r\n    mEditText.setInputType(mEditText.getInputType() \u0026 (~InputType.TYPE_TEXT_FLAG_MULTI_LINE));\r\n    mEditText.setSelection(pos);\r\n}",
+    "totalUsageOutsideSlice": 2
+  },
+  {
+    "methodCode": "@Override\r\npublic void afterTextChanged(Editable s) {\r\n    if (mPossiblyNotMultiline) {\r\n        boolean found \u003d false;\r\n        for (int i \u003d s.length() - 1; i \u003e\u003d 0; --i) {\r\n            if (s.charAt(i) \u003d\u003d \u0027\\n\u0027) {\r\n                found \u003d true;\r\n                break;\r\n            }\r\n        }\r\n        if (!found) {\r\n            mMultiline \u003d false;\r\n            int pos \u003d mEditText.getSelectionStart();\r\n            mEditText.setInputType(mEditText.getInputType() \u0026 (~InputType.TYPE_TEXT_FLAG_MULTI_LINE));\r\n            mEditText.setSelection(pos);\r\n        }\r\n    }\r\n}",
+    "sourceCodeFragment": "mMultiline \u003d false;\nint pos \u003d mEditText.getSelectionStart();\nmEditText.setInputType(mEditText.getInputType() \u0026 (~InputType.TYPE_TEXT_FLAG_MULTI_LINE));\nmEditText.setSelection(pos);",
+    "totalUsageOutsideSlice": 0
+  }
+]
